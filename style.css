@@ -1,0 +1,14 @@
+.btn-info:hover
+{
+    background-color: white;
+    color:black;
+}
+canvas {
+    animation-name: canvas_effect;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_effect {
+    from {box-shadow: 10px 10px 200px rgb(0, 195, 255)}
+    to {box-shadow:10px 10px 2000px rgb(0, 195, 255);}
+}
